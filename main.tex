@@ -80,8 +80,8 @@ $$
 \begin{equation}\label{z1}
 z^1(t) = \begin{cases}
            50,& t \in [8, 8.3], \\
-           100 , & t \in [12, 12.3], \\
-           100 , & t \in [18,18.3],\\
+           100 , & t \in [13, 13.3], \\
+           100 , & t \in [20,20.3],\\
            0, & \mbox{иначе}. \\
 \end{cases}
 \end{equation}
@@ -95,7 +95,7 @@ $$
 
 \subsection{Задача нелинейного программирования}
 
-Переходим к задаче нелинейного программирования с помощи разностной схемы Эйлерас шагом $h=\frac{T}{n}$:
+Переходим к задаче нелинейного программирования с помощи разностной схемы Эйлера с шагом $h=\frac{T}{n}$:
 
 \begin{equation}\label{NLP1}
 \left\{ \begin{aligned}
@@ -118,7 +118,7 @@ $$
 
 График отклонения уровня сахара в крови больного человека от уровня сахара в крови здорового человека представлен на Рис.\ref{task1_dx}.
 
-\begin{figure}
+\begin{figure}[t!]
 \centering
 \includegraphics[width=0.7\textwidth]{x_diabete-x_healthy}
 \caption{График $x_{diabete}(t)-x_{healthy}(t)$}
@@ -128,8 +128,9 @@ $$
 Репозиторий с решением задания может быть найден по ссылке:
 \url{https://github.com/Akhrameev/Practicum_GAMS_1.1}
 
-\newpage
+\clearpage 
 
+\newpage
 
 \section{Решение дифференциального уравнения}
 
@@ -151,7 +152,7 @@ x_0=10;
 
 График $x(t)$ представлен на Рис.~\ref{x_t_task_2_1}
 
-\begin{figure}
+\begin{figure}[b!]
 \centering
 \includegraphics[width=0.7\textwidth]{x_t_task_2_1}
 \caption{График $x(t)$}
@@ -160,6 +161,8 @@ x_0=10;
 
 Репозиторий с решением задания может быть найден по ссылке:
 \url{https://github.com/Akhrameev/Practicum_GAMS_2.1}
+
+\newpage
 
 \section{Задача быстродействия}
 \subsection{Постановка задачи}
@@ -308,7 +311,7 @@ $$
 \begin{figure}
 \centering
 \includegraphics[width=0.7\textwidth]{task3_xy}
-\caption{График $x(t)$ è $y(t)$}
+\caption{График $x(t)$ и $y(t)$}
 \label{task3_xy}
 \end{figure}
 
